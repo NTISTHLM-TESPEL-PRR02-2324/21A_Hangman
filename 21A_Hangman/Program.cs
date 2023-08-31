@@ -43,7 +43,14 @@ while (underscores.Contains("_") && guesses > 0)
 
 }
 
-Console.WriteLine("GRATZ");
+if (!underscores.Contains("_"))
+{
+  Console.WriteLine("GRATZ");
+}
+else
+{
+  Console.WriteLine("U SUX");
+}
 
 Console.ReadLine();
 
